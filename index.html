@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS Website with Graphics</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans leading-normal">
+  <!-- Navbar -->
+  <header class="bg-blue-600 text-white shadow-md">
+    <div class="container mx-auto flex justify-between items-center p-6">
+      <h1 class="text-2xl font-bold">cabdi shakuur</h1>
+      <nav>
+        <a href="#about" class="px-4 hover:underline">About</a>
+        <a href="#services" class="px-4 hover:underline">Services</a>
+        <a href="#contact" class="px-4 hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative bg-orange-500 text-white py-20">
+    <div class="container mx-auto flex flex-col-reverse lg:flex-row items-center">
+      <div class="w-full lg:w-1/2 text-center lg:text-left">
+        <h1 class="text-5xl font-black mb-6">cake</h1>
+        <p class="text-lg mb-6">Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document, click it and a button for layout options appears next to it. </p>
+        <a href="#services" class="bg-white text-blue-500 px-6 py-3 rounded-lg font-bold">Get Started</a>
+      </div>
+      <div class="w-full lg:w-1/4">
+        <img src="images/doolshe2.jpg" alt="Hero Graphic" class="rounded-lg shadow-lg ">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-gray-100">
+    <div class="container mx-auto text-center">
+      <h1 class="text-3xl font-bold mb-6">the buetful cake</h1>
+      <p class="text-lg mb-6">Reading is easier, too, in the new Reading view. You can collapse parts of the document and focus on the text you want. If you need to stop reading before you reach the end</p>
+      <img src="images/BUSSNISS.jpg" alt="About Us Graphic" class="mx-auto rounded-lg shadow-md">
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-20 bg-white">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-10">Our Services</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Service 1 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <img src="images/doolshe.jpg" alt="nabad iyo nolol" class="mx-auto mb-4">
+          <h3 class="text-xl font-bold mb-4">cake 1</h3>
+          <p>To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other</p>
+        </div>
+        <!-- Service 2 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <img src="images/doolshe2.jpg" alt="UI/UX Design" class="mx-auto mb-4">
+          <h4 class="text-xl font-bold mb-4">cake 2</h4>
+          <p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword</p>
+        </div>
+        <!-- Service 3 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <img src="images/doolshe2.jpg" alt="SEO Optimization" class="mx-auto mb-4">
+          <h4 class="text-xl font-bold mb-4">cake 3</h4>
+         
+          <p>Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts,</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-100">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-10">Contact Us</h3>
+      <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+        <!-- Contact Info -->
+        <div class="bg-white p-6 rounded-lg shadow-md text-left">
+          <h4 class="text-xl font-bold mb-4">Get in Touch</h4>
+          <p class="mb-2"><strong>Email:</strong> cabdishakuur@gmail.com</p>
+          <p><strong>Phone:</strong> +2529856927</p>
+        </div>
+        <!-- Contact Form -->
+        <form action="#" method="POST" class="bg-white p-6 rounded-lg shadow-md w-full md:w-1/2">
+          <div class="mb-4">
+            <label for="name" class="block text-sm font-bold mb-2">Name</label>
+            <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded-lg" required>
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block text-sm font-bold mb-2">Email</label>
+            <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-lg" required>
+          </div>
+          <div class="mb-4">
+            <label for="message" class="block text-sm font-bold mb-2">Message</label>
+            <textarea id="message" name="message" class="w-full px-4 py-2 border rounded-lg" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="bg-orange-500 text-white px-6 py-3 rounded-lg font-bold">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-600 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>2024 cabdishakuur@gmeil.com</p>
+    </div>
+  </footer>
+</body>
+</html>
